@@ -1,8 +1,6 @@
 var http    = require('http'),
     express = require('express'),
-    Emitter = require('events'),
     SoccerPlayer = require('./SoccerPlayer.js').SoccerPlayer,
-    Desc = require('./SoccerPlayer.js').desc,
     eventsConfige = require('./eventsConfige.js').eventsConfige;
 
 var app = express();
